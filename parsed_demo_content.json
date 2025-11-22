@@ -1,0 +1,261 @@
+{
+  "demo_parsing": {
+    "note": "This file contains parsed products and talking points from the demo training manuals. Md file is markdown, a text format for formatting documents. I've created this JSON version instead as requested.",
+    "Nature's Fynd Cooking Demo": {
+      "source": "Fynd-Wedjan17.pdf",
+      "products": {
+        "featured": [
+          {
+            "name": "Nature's Fynd Meatless Breakfast Patties – Original",
+            "size": "6 pk",
+            "upc": "8-60004-04475-8"
+          },
+          {
+            "name": "Nature's Fynd Dairy-Free Cream Cheese",
+            "size": "8 oz",
+            "upc": "8-60004-04470-3"
+          }
+        ],
+        "alternate": [
+          {
+            "name": "Nature's Fynd Dairy-Free FyYogurt – Strawberry",
+            "size": "5.3 oz",
+            "upc": "8-60004-04473-4"
+          },
+          {
+            "name": "Nature's Fynd Dairy-Free FyYogurt – Peach",
+            "size": "5.3 oz",
+            "upc": "8-60004-04474-1"
+          },
+          {
+            "name": "Nature's Fynd Dairy-Free FyYogurt – Vanilla",
+            "size": "5.3 oz",
+            "upc": "8-60004-04472-7"
+          }
+        ]
+      },
+      "talking_points": [
+        "Nature's Fynd is a new vegan foods company made with Fy. • Fy is a nutritional fungi protein. • Fy is a complete, vegan protein with all 20 essential amino acids.",
+        "Our Meatless Breakfast Patties have 75% less fat than traditional pork sausage.",
+        "Our Dairy-Free Cream Cheese is nut-free, soy-free and gluten-free.",
+        "Fy is fungi-based and is made through a fermentation process - similar to how sourdough bread is made with a sourdough starter.",
+        "Fy is better for the environment. At scale, Fy uses 99% less water, and emits 94% fewer greenhouse gases than traditional agriculture."
+      ],
+      "required_materials": {
+        "equipment_supplies": [
+          "Gloves – REQUIRED",
+          "Sneeze Guard – REQUIRED for Cooking Demos",
+          "Face Mask – SEE STORE POLICY",
+          "Metal Tray",
+          "Skillet",
+          "Bowl of Ice",
+          "Cutting Board / Knife",
+          "Sample Cups",
+          "Forks",
+          "Fact Cards",
+          "Coupons"
+        ],
+        "goal": "Sell 15 units of product if stock is available. PRODUCT ALLOWANCE: $35"
+      }
+    },
+    "BAR-S Demo": {
+      "source": "Bar S Demo Training Manual.pdf",
+      "products": {
+        "featured": [
+          {
+            "name": "BAR-S 2lb Deli Style Ham",
+            "upc": "000159019079",
+            "price": "~$9.99"
+          },
+          {
+            "name": "King's Hawaiian Rolls",
+            "price": "~$4.49"
+          },
+          {
+            "name": "Simply Done Napkins",
+            "price": "~$3.49"
+          }
+        ]
+      },
+      "talking_points": [
+        "Quality taste and value for the customer",
+        "Great for lunches and quick snacks"
+      ],
+      "required_materials": {
+        "sampling_attire": [
+          "Black ballcap, no logos",
+          "Long hair tied back",
+          "Black or white polo shirt, no logos (or SBG logo)",
+          "Black slacks (no yoga pants)",
+          "Black apron, no logos (optional but preferred)",
+          "Name Badge",
+          "Closed-toe shoes"
+        ],
+        "bring_from_home": [
+          "Current Food Handler Certification",
+          "Table (4' long preferred)",
+          "Black fabric tablecloth (covering table legs all the way to the floor preferred)",
+          "Training Manual (e-copy ok)",
+          "Allergen Card",
+          "Recap Form",
+          "Serving tray",
+          "Knife",
+          "Ice Bucket",
+          "Pen",
+          "Small trash can and liner",
+          "Smart Phone to take photos"
+        ],
+        "goal": "Sampling goal: 100 samples of BAR-S Ham. Sales Goal: 50 units of BAR-S Ham. PURCHASES NOT TO EXCEED $37.00 including tax."
+      }
+    },
+    "Joseph Farms Cheese Demo": {
+      "source": "CMAB 8150054_TM (1).pdf",
+      "products": {
+        "featured": [
+          {
+            "name": "Joseph Farms Mexican Blend",
+            "size": "32 oz.",
+            "upc": "0-52833-12116-0"
+          },
+          {
+            "name": "Joseph Farms Cheddar Jack Shredded",
+            "size": "32 oz.",
+            "upc": "0-52833-10321-0"
+          },
+          {
+            "name": "Joseph Farms Queso Quesadilla Shredded",
+            "size": "32 oz.",
+            "upc": "0-52833-12118-0"
+          }
+        ]
+      },
+      "talking_points": {
+        "real_california_milk": [
+          "California leads the nation in sustainable dairy farming.",
+          "Real California Milk products are made with 100% Real California Milk.",
+          "99% of California's dairy farms are family owned and operated, most being multi-generational farmers."
+        ],
+        "joseph_farms_cheese": [
+          "What began as a small family farm has now grown into an internationally recognized brand, sold across the United States, and around the world, including Europe, Latin America, Africa, and Asia. The Joseph Farms label symbolizes all natural, (No Artificial Hormones including rBST) world-class quality cheese, and is the trusted brand of choice for customers around the world.",
+          "Joseph Farms master cheese makers use generations of experience to slowly craft each cheese, ensuring the uncompromised quality and delicious mouth-watering flavors that have earned countless awards. Their cheese is then aged to perfection in a carefully controlled environment, which develops the unique flavor of each of our varieties.",
+          "Provides an excellent source of calcium.",
+          "Naturally gluten-free."
+        ]
+      },
+      "required_materials": {
+        "bring_from_home": [
+          "Demo Table",
+          "Black Tablecloth",
+          "Apron",
+          "Paperwork and Pen (to complete paperwork)",
+          "Cooler",
+          "Scissors",
+          "Allergy & Ingredient Sheet",
+          "Tape",
+          "Small Trash Can or Trash Bag",
+          "200 Real California Milk Branded Napkins",
+          "300 2-oz Souffle Cups",
+          "300 Spoons",
+          "3 Pairs of Gloves"
+        ],
+        "what_to_wear": [
+          "Black pants/skirt",
+          "Retailer approved uniform",
+          "Apron",
+          "Black, close-toed non-slip shoes (no open-toed shoes or gym shoes)",
+          "Face Mask",
+          "Agency approved hair restraint"
+        ],
+        "goal": "Distribution Goals: 100 units each of Joseph Farms Mexican Blend, Cheddar Jack Shredded, Queso Quesadilla Shredded. Do not exceed $56.43 (including tax)."
+      }
+    },
+    "Beyond Good Chocolate Demo": {
+      "source": "1529459.pdf & 1529469.pdf (identical content)",
+      "products": {
+        "featured": [
+          {
+            "name": "Beyond Good 70% Cocoa Pure Dark - Madagascar",
+            "size": "2.64 oz",
+            "upc": "898575001337"
+          },
+          {
+            "name": "Beyond Good 73% Cocoa Salted Caramel - Uganda",
+            "size": "2.64 oz",
+            "upc": "898575001153"
+          },
+          {
+            "name": "Beyond Good 73% Cocoa Toasted Hazelnut - Uganda",
+            "size": "2.64 oz",
+            "upc": "898575003058"
+          }
+        ]
+      },
+      "talking_points": [
+        "The Pure Dark 70% Cocoa bar is from Madagascar. • These have notes of red fruit, like cherry and raspberry.",
+        "The Salted Caramel 73% Cocoa and Toasted Hazelnut 73% bars are from Uganda. • These are rich and chocolatey with notes of vanilla and apricot.",
+        "These bars have those unique flavors because they are single origin chocolate. These are the only single origin chocolate in Whole Foods Market that was made in Africa.",
+        "Beyond Good purchases its cocoa directly from farmers in Madagascar and Uganda.",
+        "Our company annually tests for heavy metal in our chocolate."
+      ],
+      "required_materials": {
+        "equipment_supplies": [
+          "Gloves – REQUIRED",
+          "Sneeze Guard – REQUIRED for Open & Serve Demos",
+          "Face Mask – SEE STORE POLICY",
+          "Metal Tray",
+          "Cutting Board + Knife (optional)",
+          "Sample Cups"
+        ],
+        "goal": "Sell 15 units of product if stock is available. PRODUCT ALLOWANCE: $36"
+      }
+    },
+    "Demo Equipment Checklist": {
+      "source": "1535954.pdf",
+      "note": "Contains only equipment list, no products or talking points to parse.",
+      "required_materials": {
+        "demo_equipment": [
+          "Cabinet",
+          "Cabinet lock",
+          "Large demo cart",
+          "Folding metal cart",
+          "Chalkboard – branded design",
+          "Allergen sign",
+          "Sneeze guard",
+          "Microwave",
+          "Toaster oven",
+          "Skillet",
+          "Coffee maker",
+          "Blender",
+          "Cutting board",
+          "Paring Knife",
+          "8\" Chefs knife",
+          "Spatula",
+          "Tongs",
+          "Bylon fork",
+          "Trash can",
+          "Metal mixing bowl",
+          "Microwave safe bowl",
+          "Extension cord",
+          "Power strip",
+          "Metal serving tray",
+          "Kitchen shears",
+          "Meat thermometer",
+          "Serving spoon",
+          "Ice cream scoop",
+          "Silicone Pot-holder",
+          "Can opener",
+          "Pizza cutter",
+          "Trash bags",
+          "Parchment paper",
+          "2oz Sample cups",
+          "4oz paper cups",
+          "Sample sporks",
+          "Sample spoons",
+          "Napkins",
+          "Gloves",
+          "Chalk"
+        ]
+      }
+    }
+  }
+}
