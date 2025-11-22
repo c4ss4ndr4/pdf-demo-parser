@@ -1,0 +1,46 @@
+{
+  "filename": "1529469.pdf",
+  "processed_at": "2025-11-22T00:28:45.082Z",
+  "text": "EVENTMATERIALS\nBEYOND GOOD CHOCOLATE\nOPEN & SERVE DEMO\nNeed help? Check your Event Procedures Guide!\nRetailer Logo\nTalking Points\n1.The Pure Dark 70% Cocoabar is from Madagascar.\n•These have notes of red fruit, like cherry and \nraspberry.\n2.The Salted Caramel 73% Cocoaand Toasted \nHazelnut 73%bars are from Uganda.\n•These are rich and chocolatey with notes of \nvanilla and apricot.\n3.These bars have those unique flavors because they \nare single origin chocolate. These are the only single \norigin chocolate in Whole Foods Market that was \nmade in Africa.\n4.Beyond Good purchases its cocoa directly from \nfarmers in Madagascar and Uganda.\n5.Our company annually tests for heavy metal in our \nchocolate.\nFeatured ProductsSizeUPC Code\nBeyond Good 70% Cocoa\nPure Dark -Madagascar\n2.64 oz898575001337\nBeyond Good 73% Cocoa\nSalted Caramel -Uganda\n2.64 oz898575001153\nBeyond Good 73% Cocoa\nToasted Hazelnut -Uganda\n2.64 oz898575003058\nAlternate ProductsSizeUPC Code\nN/A--\nEquipment & Supplies NeededEvent Kit Contents (Shipped to Store)\n•Gloves  –REQUIRED\n•Sneeze Guard –REQUIRED for Open & Serve Demos\n•Face Mask –SEE STORE POLICY\n•Metal Tray\n•Cutting Board + Knife (optional)\n•Sample Cups\n•No event kit for this demo\nGoal: Sell 15 units of product if stock is available\nPRODUCT ALLOWANCE: $36\n\n1.Clean and sanitize demo cart before using.\n2.Write product name and price on chalkboard neatly.\n3.One chocolate bar yields 30 samples.\n4.When customer requests a sample, break off or cut one square from the chocolate bar and put it into a \nsample cup.\n5.Place sample on the metal tray for customer to take. Do not hand sample directly to customer. Do not \nprepare samples ahead of time!\n6.Share the product information and talking points while passing out samples.\n7.Take note of customer comments about the product (likes, dislikes, etc.) to submit in your recap.\n8.Save each empty package to purchase at the end of your shift.\n1.Clean and sanitize all demo equipment & supplies, let dry then return to demo cabinet.\n2.Refer to Event Procedures for detailed cleaning instructions & FAQ’s.\n3.Clean and sanitize the demo cart and return to demo zone.\n•Do not leave anything in the demo cart\n4.At the end of your shift, you will purchase the featured products with a maximum spending limitof $36.\n•Make sure to select DEBITwhen making purchases\n•Do not exceed the maximum spending limit\n5.Make sure to save all receipts and submit them with your Event Receipt Form at the end of your shift.\n6.If you’ve reached your maximum spending limit, spend the remaining time on your shift performing an \neducational demo.\nSet Up & Sampling Instructions\nBreak Down & Check Out Sampling Instructions\nExample of Cart Display:\nSneeze Guard\nProduct Name & Price \nNeatly Written on \nChalkboard\nProduct Displayed for \nCustomers to Take & \nPurchase",
+  "text_length": 2821,
+  "parsed_data": {
+    "demo_type": "Beyond Good Chocolate Demo",
+    "products": {
+      "featured": [
+        {
+          "name": "Beyond Good 70% Cocoa Pure Dark - Madagascar",
+          "size": "2.64 oz",
+          "upc": "898575001337"
+        },
+        {
+          "name": "Beyond Good 73% Cocoa Salted Caramel - Uganda",
+          "size": "2.64 oz",
+          "upc": "898575001153"
+        },
+        {
+          "name": "Beyond Good 73% Cocoa Toasted Hazelnut - Uganda",
+          "size": "2.64 oz",
+          "upc": "898575003058"
+        }
+      ]
+    },
+    "talking_points": [
+      "The Pure Dark 70% Cocoa bar is from Madagascar. These have notes of red fruit, like cherry and raspberry.",
+      "The Salted Caramel 73% Cocoa and Toasted Hazelnut 73% bars are from Uganda. These are rich and chocolatey with notes of vanilla and apricot.",
+      "These bars have those unique flavors because they are single origin chocolate. These are the only single origin chocolate in Whole Foods Market that was made in Africa.",
+      "Beyond Good purchases its cocoa directly from farmers in Madagascar and Uganda.",
+      "Our company annually tests for heavy metal in our chocolate."
+    ],
+    "required_materials": {
+      "equipment_supplies": [
+        "Gloves – REQUIRED",
+        "Sneeze Guard – REQUIRED for Open & Serve Demos",
+        "Face Mask – SEE STORE POLICY",
+        "Metal Tray",
+        "Cutting Board + Knife (optional)",
+        "Sample Cups"
+      ],
+      "goal": "Sell 15 units of product if stock is available. PRODUCT ALLOWANCE: $36"
+    }
+  }
+}
