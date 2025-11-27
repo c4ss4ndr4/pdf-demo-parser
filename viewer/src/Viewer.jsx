@@ -9,21 +9,31 @@ export default function Viewer({ data }) {
 
   const parsed = data.parsed_data;
 
-  function Section({ title, children }) {
+  function Section({ title, children, open = false }) {
     return (
-      <details className="section">
+      <details className="section" open={open}>
         <summary>{title}</summary>
         <div className="content">{children}</div>
       </details>
     );
   }
 
+
+
+  const companyName =
+    parsed.company || parsed.brand || parsed.retailer ||
+    (parsed.demo_type ? parsed.demo_type.replace(/\s*Demo$/i, '').trim() : null) ||
+    data.filename;
+
   return (
     <div className="viewer">
-      <h1>{parsed.demo_type}</h1>
-      <p>Source: {data.filename}</p>
+      <h1>{companyName}</h1>
+      {parsed.demo_type && parsed.demo_type !== companyName && (
+        <p className="subtitle">{parsed.demo_type}</p>
+      )}
+      <p className="source">Source: {data.filename}</p>
 
-      <Section title="Products">
+      <Section title="Products" open>
         {parsed.products.featured && parsed.products.featured.length > 0 && (
           <div>
             <h3>Featured Products</h3>
@@ -57,7 +67,7 @@ export default function Viewer({ data }) {
         )}
       </Section>
 
-      <Section title="Talking Points">
+      <Section title="Talking Points" open>
         <ul>
           {Array.isArray(parsed.talking_points)
             ? parsed.talking_points.map((point, i) => <li key={i}>{point}</li>)
@@ -73,7 +83,7 @@ export default function Viewer({ data }) {
         </ul>
       </Section>
 
-      {parsed.required_materials && <Section title="Required Materials">
+      {parsed.required_materials && <Section title="Required Materials" open>
         {parsed.required_materials.equipment_supplies && (
           <div>
             <h3>Equipment & Supplies</h3>
@@ -111,7 +121,7 @@ export default function Viewer({ data }) {
       </Section>}
 
       {parsed.note && (
-        <Section title="Notes">
+        <Section title="Notes" open>
           <p>{parsed.note}</p>
         </Section>
       )}

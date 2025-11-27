@@ -1,6 +1,3 @@
-import { useState } from "react";
-import { Link } from "react-router-dom";
-
 const availableFiles = [
   "Fynd-Wedjan17.json",
   "Bar S Demo Training Manual.json",
@@ -10,11 +7,7 @@ const availableFiles = [
 ];
 
 export default function JSONUpload({ onLoad }) {
-  const [fileName, setFileName] = useState("");
-  const [loading, setLoading] = useState(false);
-
   async function handleFileSelect(filename) {
-    setLoading(true);
     try {
       const response = await fetch(`/data/${filename}`);
       if (!response.ok) {
@@ -22,12 +15,10 @@ export default function JSONUpload({ onLoad }) {
       }
       const data = await response.json();
       data.filename = filename; // Add filename to the data
+      data.collapsed = true; // Start collapsed
       onLoad(data);
-      setFileName(filename);
     } catch (err) {
       alert(`Failed to load ${filename}: ${err.message}`);
-    } finally {
-      setLoading(false);
     }
   }
 
@@ -42,22 +33,11 @@ export default function JSONUpload({ onLoad }) {
             key={filename}
             className="file-button"
             onClick={() => handleFileSelect(filename)}
-            disabled={loading}
           >
             {filename}
           </button>
         ))}
       </div>
-
-      {loading && <p>Loading...</p>}
-
-      {fileName && <p className="filename">Loaded: {fileName}</p>}
-
-      {fileName && (
-        <Link to="/viewer" className="button">
-          View Parsed Demo →
-        </Link>
-      )}
     </div>
   );
 }

@@ -74,3 +74,56 @@ ul {
   color: #777;
   font-size: .9rem;
 }
+
+.loaded-files {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.file-accordion {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.accordion-toggle {
+  width: 100%;
+  padding: 1rem;
+  background: #f8f8f8;
+  border: none;
+  text-align: left;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.accordion-toggle:hover {
+  background: #e8e8e8;
+}
+
+.subsection summary {
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.subsection {
+  margin: 0.5rem 0;
+}
+
+.subcontent {
+  padding: 0.5rem 1rem;
+  border-left: 2px solid #eee;
+  margin-left: 1rem;
+}
+
+.content h3 {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #333;
+}
