@@ -63,5 +63,59 @@
       ],
       "goal": "Distribution Goals: 100 units each of Joseph Farms Mexican Blend, Cheddar Jack Shredded, Queso Quesadilla Shredded. Do not exceed $56.43 (including tax)."
     }
-  }
+  },
+  "scheduled_events": [
+    {
+      "Job #": 8150054,
+      "Project Name": "CMAB Joseph Farms @ Food 4 Less-11/21/2025",
+      "Store Name": "Food 4 Less",
+      "Store #": 29,
+      "Store Address Line 1": "2323 W Hammer Lane",
+      "Store City": "Stockton",
+      "Store State": "CA",
+      "Store Zip": 95209,
+      "Project Date": "2025-11-29",
+      "Project Time": "12 P - 4 P",
+      "Demonstrator Name": "Diane Delgado"
+    },
+    {
+      "Job #": 8150054,
+      "Project Name": "CMAB Joseph Farms @ Food 4 Less-11/21/2025",
+      "Store Name": "Food 4 Less",
+      "Store #": 29,
+      "Store Address Line 1": "2323 W Hammer Lane",
+      "Store City": "Stockton",
+      "Store State": "CA",
+      "Store Zip": 95209,
+      "Project Date": "2025-11-21",
+      "Project Time": "12 P - 4 P",
+      "Demonstrator Name": "Tina Borra"
+    },
+    {
+      "Job #": 8150054,
+      "Project Name": "CMAB Joseph Farms @ Food 4 Less-11/21/2025",
+      "Store Name": "Food 4 Less",
+      "Store #": 29,
+      "Store Address Line 1": "2323 W Hammer Lane",
+      "Store City": "Stockton",
+      "Store State": "CA",
+      "Store Zip": 95209,
+      "Project Date": "2025-11-22",
+      "Project Time": "12 P - 4 P",
+      "Demonstrator Name": "Diane Delgado"
+    },
+    {
+      "Job #": 8150054,
+      "Project Name": "CMAB Joseph Farms @ Food 4 Less-11/21/2025",
+      "Store Name": "Food 4 Less",
+      "Store #": 29,
+      "Store Address Line 1": "2323 W Hammer Lane",
+      "Store City": "Stockton",
+      "Store State": "CA",
+      "Store Zip": 95209,
+      "Project Date": "2025-11-28",
+      "Project Time": "12 P - 4 P",
+      "Demonstrator Name": "Cassandra Marshall"
+    }
+  ]
 }

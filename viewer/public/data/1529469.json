@@ -42,5 +42,33 @@
       ],
       "goal": "Sell 15 units of product if stock is available. PRODUCT ALLOWANCE: $36"
     }
-  }
+  },
+  "scheduled_events": [
+    {
+      "Job #": 6201,
+      "Project Name": "Beyond Good Chocolate",
+      "Store Name": "Whole Foods",
+      "Store #": 62,
+      "Store Address Line 1": "1234 San Rafael Way",
+      "Store City": "San Rafael",
+      "Store State": "CA",
+      "Store Zip": 94903,
+      "Project Date": "2025-09-18",
+      "Project Time": "10a-2pm",
+      "Demonstrator Name": "Cassandra Marshall"
+    },
+    {
+      "Job #": 6201,
+      "Project Name": "Beyond Good Chocolate",
+      "Store Name": "Whole Foods",
+      "Store #": 62,
+      "Store Address Line 1": "1234 San Rafael Way",
+      "Store City": "San Rafael",
+      "Store State": "CA",
+      "Store Zip": 94903,
+      "Project Date": "2025-01-18",
+      "Project Time": "10a-2pm",
+      "Demonstrator Name": "Cassandra Marshall"
+    }
+  ]
 }

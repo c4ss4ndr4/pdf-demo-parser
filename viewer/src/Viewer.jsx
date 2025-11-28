@@ -125,6 +125,20 @@ export default function Viewer({ data }) {
           <p>{parsed.note}</p>
         </Section>
       )}
+
+      {data.scheduled_events && data.scheduled_events.length > 0 && (
+        <Section title="Scheduled Events" open>
+          {data.scheduled_events.map((event, i) => (
+            <div key={i} style={{ marginBottom: '1rem', paddingBottom: '1rem', borderBottom: i < data.scheduled_events.length - 1 ? '1px solid #eee' : 'none' }}>
+              <p><strong>Date:</strong> {event['Project Date']} at {event['Project Time']}</p>
+              <p><strong>Location:</strong> {event['Store Name']} #{event['Store #']}</p>
+              <p><strong>Address:</strong> {event['Store Address Line 1']}, {event['Store City']}, {event['Store State']} {event['Store Zip']}</p>
+              <p><strong>Demonstrator:</strong> {event['Demonstrator Name']}</p>
+              <p><strong>Job #:</strong> {event['Job #']}</p>
+            </div>
+          ))}
+        </Section>
+      )}
     </div>
   );
 }

@@ -5,13 +5,20 @@
   "main": "extract.js",
   "scripts": {
     "start": "node extract.js",
+    "combine": "node combine-data.js",
     "test": "echo \"No tests specified\" && exit 0"
   },
-  "keywords": ["pdf", "parser", "extract", "json"],
+  "keywords": [
+    "pdf",
+    "parser",
+    "extract",
+    "json"
+  ],
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "pdf-parse": "^1.1.1"
+    "pdf-parse": "^1.1.1",
+    "xlsx": "^0.18.5"
   },
   "engines": {
     "node": ">=12.0.0"

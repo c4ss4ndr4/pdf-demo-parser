@@ -47,6 +47,15 @@ function App() {
     );
   };
 
+  const getDisplayName = (file) => {
+    if (!file.parsed_data) return file.filename;
+
+    const parsed = file.parsed_data;
+    return parsed.company || parsed.brand || parsed.retailer ||
+      (parsed.demo_type ? parsed.demo_type.replace(/\s*Demo$/i, '').trim() : null) ||
+      file.filename;
+  };
+
   return (
     <div className="app">
       <div className="upload-container">
@@ -61,7 +70,7 @@ function App() {
               className="accordion-toggle"
               onClick={() => toggleExpanded(file.filename)}
             >
-              {file.filename} {file.collapsed ? '▶' : '▼'}
+              {getDisplayName(file)} {file.collapsed ? '▶' : '▼'}
             </button>
             {!file.collapsed && <Viewer data={file} />}
           </div>
